@@ -1,5 +1,3 @@
-# Mothers Milk
-
 A zoom in picture drinking game
 
 ## Install
