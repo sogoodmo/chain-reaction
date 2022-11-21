@@ -1,0 +1,14 @@
+{
+  "name": "mothers-milk",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "pnpm --filter site build && pnpm --filter cdk build", 
+    "synth": "pnpm --filter cdk cdk synth --output '../../cdk.out'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pnpm --filter site dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
